@@ -1,0 +1,19 @@
+# Core scraping framework
+scrapling[all]
+
+# Stealth browser engine (required by scrapling's StealthyFetcher)
+patchright
+
+# YAML config loading
+pyyaml
+
+# .env support
+python-dotenv
+
+# Excel output (optional but recommended)
+openpyxl
+
+# Browser fingerprinting helpers (pulled in by scrapling[all], listed explicitly)
+browserforge
+msgspec
+curl_cffi
